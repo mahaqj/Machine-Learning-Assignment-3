@@ -43,7 +43,7 @@ Hugging Face Link: https://huggingface.co/mahaqj/ml_assignment_3
 
 ---
 
-## 🚀 How to Run Inference
+## How to Run Inference
 
 ### 1. Clone the Repository
 ```bash
@@ -75,7 +75,7 @@ The model will return a predicted median house value.
 
 ---
 
-## 🧠 Load the Model in Python
+## Load the Model in Python
 
 ```python
 import joblib
