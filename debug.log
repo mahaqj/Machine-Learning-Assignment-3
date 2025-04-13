@@ -1,0 +1,22 @@
+2025-04-13 21:19:03,214 INFO    MainThread:21112 [wandb_init.py:setup_run_log_directory():662] Logging user logs to d:\VSCode Setup\Projects VSCode\ml_assignment3\wandb\run-20250413_211900-aywdoyz5\logs\debug.log
+2025-04-13 21:19:03,214 INFO    MainThread:21112 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to d:\VSCode Setup\Projects VSCode\ml_assignment3\wandb\run-20250413_211900-aywdoyz5\logs\debug-internal.log
+2025-04-13 21:19:03,214 INFO    MainThread:21112 [wandb_init.py:monkeypatch_ipython():581] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002A8575120F0>
+2025-04-13 21:19:03,214 INFO    MainThread:21112 [wandb_init.py:init():781] calling init triggers
+2025-04-13 21:19:03,214 INFO    MainThread:21112 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'model': 'LinearRegression', '_wandb': {}}
+2025-04-13 21:19:03,215 INFO    MainThread:21112 [wandb_init.py:init():798] finishing previous run: qaidy1ot
+2025-04-13 21:19:04,880 INFO    MainThread:21112 [wandb_init.py:init():809] starting backend
+2025-04-13 21:19:04,880 INFO    MainThread:21112 [wandb_init.py:init():813] sending inform_init request
+2025-04-13 21:19:04,884 INFO    MainThread:21112 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-13 21:19:04,884 INFO    MainThread:21112 [wandb_init.py:init():823] backend started and connected
+2025-04-13 21:19:04,887 INFO    MainThread:21112 [wandb_run.py:_label_probe_notebook():1267] probe notebook
+2025-04-13 21:19:04,889 INFO    MainThread:21112 [wandb_init.py:init():915] updated telemetry
+2025-04-13 21:19:04,893 INFO    MainThread:21112 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-13 21:19:05,965 INFO    MainThread:21112 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-13 21:19:06,225 INFO    MainThread:21112 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-13 21:19:06,226 INFO    MainThread:21112 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-13 21:19:06,226 INFO    MainThread:21112 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-13 21:19:06,226 INFO    MainThread:21112 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-13 21:19:06,228 INFO    MainThread:21112 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-13 21:19:06,229 INFO    MainThread:21112 [jupyter.py:save_ipynb():384] [no run ID] not saving jupyter notebook
+2025-04-13 21:19:06,229 INFO    MainThread:21112 [wandb_init.py:_pause_backend():546] [no run ID] pausing backend
