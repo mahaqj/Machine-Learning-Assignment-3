@@ -11,6 +11,7 @@ This assignment involves building a machine learning pipeline for predicting hou
 ![Screenshot 2025-04-13 231029](https://github.com/user-attachments/assets/3e2c1eb5-1871-4f49-be49-b13a58dd6d6f)
 
 Hugging Face Link: https://huggingface.co/mahaqj/ml_assignment_3
+W&B Link: https://wandb.ai/mahaqj-/california-housing-prediction
 
 ---
 ## Files Included
