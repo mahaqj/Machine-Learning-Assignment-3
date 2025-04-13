@@ -10,12 +10,19 @@ This assignment involves building a machine learning pipeline for predicting hou
 
 ![Screenshot 2025-04-13 231029](https://github.com/user-attachments/assets/3e2c1eb5-1871-4f49-be49-b13a58dd6d6f)
 
+### Run the Web App
+```bash
+python app.py
+```
+
+Then open your browser and go to [http://localhost:5000](http://localhost:5000) to view the web interface.
+
 Hugging Face Link: https://huggingface.co/mahaqj/ml_assignment_3
 
 W&B Link: https://wandb.ai/mahaqj-/california-housing-prediction
 
 ---
-## Files Included
+## Files at Hugging Face
 - `best_model.joblib`: Trained Mini-Batch Linear Regression model with Ridge regularization  
 - `scaler.joblib`: Fitted `StandardScaler` for input preprocessing  
 - `inference.py`: CLI-based script to load model + scaler and predict housing prices based on user input  
@@ -44,53 +51,3 @@ W&B Link: https://wandb.ai/mahaqj-/california-housing-prediction
 - **Early Stopping:** Enabled to prevent overfitting
 
 ---
-
-## How to Run Inference
-
-### 1. Clone the Repository
-```bash
-git clone https://huggingface.co/mahaqj/ml_assignment_3
-cd ml_assignment_3
-```
-
-### 2. Install Required Libraries
-```bash
-pip install joblib numpy scikit-learn huggingface_hub
-```
-
-### 3. Run the Script
-```bash
-python inference.py
-```
-
-You’ll be prompted to enter the following 8 features:
-- Avg. Rooms  
-- Avg. Bedrooms  
-- Population  
-- Household  
-- Median Income  
-- Latitude  
-- Longitude  
-- Housing Median Age  
-
-The model will return a predicted median house value.
-
----
-
-## Load the Model in Python
-
-```python
-import joblib
-import requests
-from io import BytesIO
-
-# URLs to download model and scaler from Hugging Face
-model_url = "https://huggingface.co/mahaqj/ml_assignment_3/resolve/main/best_model.joblib"
-scaler_url = "https://huggingface.co/mahaqj/ml_assignment_3/resolve/main/scaler.joblib"
-
-# Load model
-model = joblib.load(BytesIO(requests.get(model_url).content))
-
-# Load scaler
-scaler = joblib.load(BytesIO(requests.get(scaler_url).content))
-```
