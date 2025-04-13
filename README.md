@@ -17,12 +17,12 @@ python app.py
 
 Then open your browser and go to [http://localhost:5000](http://localhost:5000) to view the web interface.
 
+---
 Hugging Face Link: https://huggingface.co/mahaqj/ml_assignment_3
 
 W&B Link: https://wandb.ai/mahaqj-/california-housing-prediction
 
----
-## Files at Hugging Face
+## Hugging Face Files
 - `best_model.joblib`: Trained Mini-Batch Linear Regression model with Ridge regularization  
 - `scaler.joblib`: Fitted `StandardScaler` for input preprocessing  
 - `inference.py`: CLI-based script to load model + scaler and predict housing prices based on user input  
