@@ -18,9 +18,11 @@ python app.py
 Then open your browser and go to [http://localhost:5000](http://localhost:5000) to view the web interface.
 
 ---
-Hugging Face Link: https://huggingface.co/mahaqj/ml_assignment_3
 
-W&B Link: https://wandb.ai/mahaqj-/california-housing-prediction
+## Links
+
+- **Hugging Face Link**: [Mini-Batch Regression Model](https://huggingface.co/mahaqj/ml_assignment_3)
+- **W&B Link**: [Training Dashboard](https://wandb.ai/mahaqj-/california-housing-prediction)
 
 ## Hugging Face Files
 - `best_model.joblib`: Trained Mini-Batch Linear Regression model with Ridge regularization  
