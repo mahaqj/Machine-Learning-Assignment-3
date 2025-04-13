@@ -19,17 +19,6 @@ Then open your browser and go to [http://localhost:5000](http://localhost:5000) 
 
 ---
 
-## Links
-
-- **Hugging Face Link**: [Mini-Batch Regression Model](https://huggingface.co/mahaqj/ml_assignment_3)
-- **W&B Link**: [Training Dashboard](https://wandb.ai/mahaqj-/california-housing-prediction)
-
-## Hugging Face Files
-- `best_model.joblib`: Trained Mini-Batch Linear Regression model with Ridge regularization  
-- `scaler.joblib`: Fitted `StandardScaler` for input preprocessing  
-- `inference.py`: CLI-based script to load model + scaler and predict housing prices based on user input  
----
-
 ## Dataset & Features
 **Source**: California Housing Dataset (`sklearn.datasets.fetch_california_housing`)  
 **Target Variable**: Median House Value (Price)
@@ -51,5 +40,17 @@ Then open your browser and go to [http://localhost:5000](http://localhost:5000) 
 - **Preprocessing:** StandardScaler  
 - **Regularization:** Ridge (L2)  
 - **Early Stopping:** Enabled to prevent overfitting
+
+---
+
+## Links
+
+- **Hugging Face Link**: [Mini-Batch Regression Model](https://huggingface.co/mahaqj/ml_assignment_3)
+- **W&B Link**: [Training Dashboard](https://wandb.ai/mahaqj-/california-housing-prediction)
+
+## Hugging Face Files
+- `best_model.joblib`: Trained Mini-Batch Linear Regression model with Ridge regularization  
+- `scaler.joblib`: Fitted `StandardScaler` for input preprocessing  
+- `inference.py`: CLI-based script to load model + scaler and predict housing prices based on user input
 
 ---
